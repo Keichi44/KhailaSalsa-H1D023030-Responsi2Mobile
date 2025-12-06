@@ -10,7 +10,7 @@
 ## 📝 Deskripsi Proyek
 Aplikasi ini adalah sistem **Inventaris Buku** untuk supermarket. Aplikasi dibangun menggunakan **Flutter** sebagai Frontend dan **CodeIgniter 4** sebagai Backend (REST API). Aplikasi ini memiliki fitur lengkap: Autentikasi (Login/Logout) dan CRUD (Create, Read, Update, Delete) data buku.
 
----
+![demoaplikasi](demoaplikasi/demoaplikasi.mp4)
 
 ## 🚀 Penjelasan Proses & Kode (Login & CRUD)
 
@@ -21,12 +21,10 @@ Fitur untuk masuk ke dalam sistem inventaris.
 
 **a. Tampilan Form & Input**
 Pengguna memasukkan Email dan Password pada form login.
-![Screenshot Login](screenshots_app/login_form.png)
 *(Penjelasan: Form login meminta input kredensial user)*
 
 **b. Validasi & Respon Sukses**
 Jika login berhasil, sistem akan menyimpan Token akses dan mengarahkan ke halaman Inventaris.
-![Screenshot Popup Sukses](screenshots_app/login_success.png)
 
 ![alt text](image.png)
 String apiUrl = ApiUrl.login;: Mengambil alamat URL endpoint login yang sudah didefinisikan di file helper (misal: .../login).
